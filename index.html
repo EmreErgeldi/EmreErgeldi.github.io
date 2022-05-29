@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <title>Github Profile Finder</title>
+</head>
+<body class="bg-black">
+  <nav class="navbar navbar-dark mb-3">
+    <div class="container d-flex justify-content-center">
+      <a href="#" class="navbar-brand">Github Profile Finder</a>
+    </div>
+  </nav>
+  <div class="container searchContainer pb-1 bg-dark">
+    <div class="search card card-body border-0 bg-dark">
+      <h1 class="text-light">Search Github Users</h1>
+      <p class="lead text-white">Enter a username to search a user and repos</p>
+      <input type="text" id="searchUser" class="form-control" placeholder="GitHub Username">
+    </div>
+    <br>
+    <div id="profile"></div>
+  </div>
+  
+  <footer class="mt-5 p-2 text-center bg-secondary">
+    GitHub Finder &copy;
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="github.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
